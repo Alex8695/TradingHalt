@@ -12,9 +12,11 @@ namespace TradingHaltLibrary.Model
 		public class HaltCodes
 		{
 			[JsonPropertyName("halt_code")]
-			public HaltCode[] HaltCodeCollection { get => haltCodes; set => haltCodes = value; }
+			public HaltCode.HaltCodeItem[] HaltCodeCollection { 
+				get => haltCodes; 
+				set => haltCodes = value; }
 
-			private HaltCode[] haltCodes;
+			private HaltCode.HaltCodeItem[] haltCodes;
 
 			public HaltCodes() { }
 		}
