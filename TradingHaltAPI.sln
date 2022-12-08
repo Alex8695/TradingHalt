@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TradingHaltAPI", "TradingHa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingHaltLibrary", "TradingHaltLibrary\TradingHaltLibrary.csproj", "{5A3120C3-BE64-4BAF-B727-F5B6F6A61416}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TradingHaltTEST", "TradingHaltTEST\TradingHaltTEST.csproj", "{FAFF285B-EC90-425F-89A2-BF5DDF2A0E70}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5A3120C3-BE64-4BAF-B727-F5B6F6A61416}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A3120C3-BE64-4BAF-B727-F5B6F6A61416}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A3120C3-BE64-4BAF-B727-F5B6F6A61416}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAFF285B-EC90-425F-89A2-BF5DDF2A0E70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAFF285B-EC90-425F-89A2-BF5DDF2A0E70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAFF285B-EC90-425F-89A2-BF5DDF2A0E70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAFF285B-EC90-425F-89A2-BF5DDF2A0E70}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

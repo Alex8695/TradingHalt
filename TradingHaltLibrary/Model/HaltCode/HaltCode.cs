@@ -14,7 +14,7 @@ namespace TradingHaltLibrary.Model
 		/// <c>HaltCode</c>
 		/// <para>Halt Code Details</para>
 		/// </summary>
-		[DebuggerDisplay("{Code} : {Description}")]
+		[DebuggerDisplay("{Code} : {Desc}")]
 		public class HaltCodeItem
 		{
 			[JsonPropertyName("code")]
@@ -30,7 +30,7 @@ namespace TradingHaltLibrary.Model
 			private string symbol;
 			private string symbolDetail;
 
-			public HaltCode() { }
+			public HaltCodeItem() { }
 		}
 	}
 }
